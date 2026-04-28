@@ -26,33 +26,30 @@ namespace ProcessReportService.Services
         {
             Log("=== GetRunningGames() called ===");
 
-            var games = new List<string>();
+            var games = DetectRealGames();
 
-            // Folder-based detection only
-            games.AddRange(DetectGamesByProcessFolders());
-
-            // Remove duplicates
             games = games
                 .Where(g => !string.IsNullOrWhiteSpace(g))
                 .Distinct(StringComparer.OrdinalIgnoreCase)
                 .ToList();
 
-            Log($"Final detected games: {string.Join(", ", games)}");
+            Log($"Final REAL games: {string.Join(", ", games)}");
             return games;
         }
 
         // ---------------------------------------------------------
-        // FOLDER-BASED DETECTION (MAIN LOGIC)
+        // REAL GAME DETECTION
         // ---------------------------------------------------------
-        private static List<string> DetectGamesByProcessFolders()
+        private static List<string> DetectRealGames()
         {
             var results = new List<string>();
 
-            // Keywords that identify game launcher folders
-            var keywords = new[]
+            // Launcher root folders (NOT games)
+            var launcherRoots = new[]
             {
-                "steam", "epic", "gog", "ubisoft", "ea", "origin",
-                "riot", "battle", "blizzard"
+                "steam", "steamapps", "epic games", "gog galaxy",
+                "ubisoft game launcher", "ea", "origin", "riot games",
+                "battle.net", "blizzard"
             };
 
             foreach (var p in Process.GetProcesses())
@@ -71,25 +68,30 @@ namespace ProcessReportService.Services
                 if (string.IsNullOrWhiteSpace(dir))
                     continue;
 
-                // Walk up 3 folder levels
-                var folders = new List<string>();
-                string current = dir;
+                string normalized = dir.ToLowerInvariant();
 
-                for (int i = 0; i < 3; i++)
-                {
-                    folders.Add(current);
-                    current = Directory.GetParent(current)?.FullName ?? "";
-                    if (string.IsNullOrWhiteSpace(current))
-                        break;
-                }
+                // Skip launcher folders
+                if (launcherRoots.Any(root => normalized.EndsWith(root)))
+                    continue;
 
-                // Check if any folder contains launcher keywords
-                if (folders.Any(f => keywords.Any(k =>
-                    f.Contains(k, StringComparison.OrdinalIgnoreCase))))
-                {
-                    Log($"Folder-based match: {p.ProcessName} at {exePath}");
-                    results.Add(p.ProcessName);
-                }
+                // REAL GAME RULE:
+                // A real game EXE lives inside a game folder, not the launcher folder.
+                bool isRealGame =
+                    normalized.Contains("steamapps\\common") ||
+                    normalized.Contains("epic games\\") ||
+                    normalized.Contains("gog galaxy\\games") ||
+                    normalized.Contains("ubisoft game launcher\\games") ||
+                    normalized.Contains("ea games\\") ||
+                    normalized.Contains("origin games\\") ||
+                    normalized.Contains("riot games\\") ||
+                    normalized.Contains("battle.net\\") ||
+                    normalized.Contains("blizzard\\");
+
+                if (!isRealGame)
+                    continue;
+
+                Log($"REAL GAME detected: {p.ProcessName} at {exePath}");
+                results.Add(p.ProcessName);
             }
 
             return results;

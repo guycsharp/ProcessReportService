@@ -13166,3 +13166,295 @@
 16:28:30 Folder-based match: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
 16:28:30 Final detected games: RtkAudUService64, steam, steamwebhelper, EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, GalaxyClient, GalaxyClient Helper, ms-teams, GalaxyCommunication, GOG Galaxy Notifications Renderer, EADesktop, EACefSubProcess, EALocalHostSvc, CCXProcess, node, RtkUWP, OblivionRemastered, OblivionRemastered-Win64-Shipping, gameoverlayui64
 16:28:35 === GetRunningGames() called ===
+16:36:22 === GetRunningGames() called ===
+16:36:24 Folder-based match: RtkAudUService64 at C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_9715b98ea291c6cf\RtkAudUService64.exe
+16:36:24 Folder-based match: steam at C:\Program Files (x86)\Steam\steam.exe
+16:36:24 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:24 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:24 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:24 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:24 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:24 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:24 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:24 Folder-based match: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:36:24 Folder-based match: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:36:24 Folder-based match: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:36:24 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:24 Folder-based match: GalaxyClient at C:\Program Files (x86)\GOG Galaxy\GalaxyClient.exe
+16:36:24 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:24 Folder-based match: GalaxyClient Helper at C:\Program Files (x86)\GOG Galaxy\GalaxyClient Helper.exe
+16:36:24 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:24 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:24 Folder-based match: ms-teams at C:\Program Files\WindowsApps\MSTeams_26072.521.4595.7966_x64__8wekyb3d8bbwe\ms-teams.exe
+16:36:24 Folder-based match: ms-teams at C:\Program Files\WindowsApps\MSTeams_26072.521.4595.7966_x64__8wekyb3d8bbwe\ms-teams.exe
+16:36:24 Folder-based match: GalaxyCommunication at C:\ProgramData\GOG.com\Galaxy\redists\GalaxyCommunication.exe
+16:36:24 Folder-based match: GalaxyClient Helper at C:\Program Files (x86)\GOG Galaxy\GalaxyClient Helper.exe
+16:36:24 Folder-based match: GOG Galaxy Notifications Renderer at C:\Program Files (x86)\GOG Galaxy\GOG Galaxy Notifications Renderer.exe
+16:36:24 Folder-based match: EADesktop at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EADesktop.exe
+16:36:24 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:24 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:24 Folder-based match: EALocalHostSvc at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EALocalHostSvc.exe
+16:36:24 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:24 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:24 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:24 Folder-based match: CCXProcess at C:\Program Files\Adobe\Adobe Creative Cloud Experience\CCXProcess.exe
+16:36:24 Folder-based match: node at C:\Program Files\Adobe\Adobe Creative Cloud Experience\libs\node.exe
+16:36:24 Folder-based match: RtkUWP at C:\Program Files\WindowsApps\RealtekSemiconductorCorp.RealtekAudioControl_1.53.390.0_x64__dt26b99r8h8gj\RtkUWP.exe
+16:36:24 Folder-based match: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:36:24 Folder-based match: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:36:24 Folder-based match: gameoverlayui64 at C:\Program Files (x86)\Steam\gameoverlayui64.exe
+16:36:24 Folder-based match: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:24 Folder-based match: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:24 Final detected games: RtkAudUService64, steam, steamwebhelper, EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, GalaxyClient, GalaxyClient Helper, ms-teams, GalaxyCommunication, GOG Galaxy Notifications Renderer, EADesktop, EACefSubProcess, EALocalHostSvc, CCXProcess, node, RtkUWP, OblivionRemastered, OblivionRemastered-Win64-Shipping, gameoverlayui64
+16:36:24 === GetRunningGames() called ===
+16:36:26 Folder-based match: RtkAudUService64 at C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_9715b98ea291c6cf\RtkAudUService64.exe
+16:36:26 Folder-based match: steam at C:\Program Files (x86)\Steam\steam.exe
+16:36:26 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:26 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:26 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:26 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:26 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:26 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:26 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:26 Folder-based match: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:36:26 Folder-based match: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:36:26 Folder-based match: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:36:26 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:26 Folder-based match: GalaxyClient at C:\Program Files (x86)\GOG Galaxy\GalaxyClient.exe
+16:36:26 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:26 Folder-based match: GalaxyClient Helper at C:\Program Files (x86)\GOG Galaxy\GalaxyClient Helper.exe
+16:36:26 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:26 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:26 Folder-based match: ms-teams at C:\Program Files\WindowsApps\MSTeams_26072.521.4595.7966_x64__8wekyb3d8bbwe\ms-teams.exe
+16:36:26 Folder-based match: ms-teams at C:\Program Files\WindowsApps\MSTeams_26072.521.4595.7966_x64__8wekyb3d8bbwe\ms-teams.exe
+16:36:26 Folder-based match: GalaxyCommunication at C:\ProgramData\GOG.com\Galaxy\redists\GalaxyCommunication.exe
+16:36:26 Folder-based match: GalaxyClient Helper at C:\Program Files (x86)\GOG Galaxy\GalaxyClient Helper.exe
+16:36:26 Folder-based match: GOG Galaxy Notifications Renderer at C:\Program Files (x86)\GOG Galaxy\GOG Galaxy Notifications Renderer.exe
+16:36:26 Folder-based match: EADesktop at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EADesktop.exe
+16:36:26 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:26 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:26 Folder-based match: EALocalHostSvc at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EALocalHostSvc.exe
+16:36:26 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:26 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:26 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:26 Folder-based match: CCXProcess at C:\Program Files\Adobe\Adobe Creative Cloud Experience\CCXProcess.exe
+16:36:26 Folder-based match: node at C:\Program Files\Adobe\Adobe Creative Cloud Experience\libs\node.exe
+16:36:26 Folder-based match: RtkUWP at C:\Program Files\WindowsApps\RealtekSemiconductorCorp.RealtekAudioControl_1.53.390.0_x64__dt26b99r8h8gj\RtkUWP.exe
+16:36:26 Folder-based match: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:36:26 Folder-based match: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:36:26 Folder-based match: gameoverlayui64 at C:\Program Files (x86)\Steam\gameoverlayui64.exe
+16:36:26 Folder-based match: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:26 Folder-based match: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:26 Final detected games: RtkAudUService64, steam, steamwebhelper, EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, GalaxyClient, GalaxyClient Helper, ms-teams, GalaxyCommunication, GOG Galaxy Notifications Renderer, EADesktop, EACefSubProcess, EALocalHostSvc, CCXProcess, node, RtkUWP, OblivionRemastered, OblivionRemastered-Win64-Shipping, gameoverlayui64
+16:36:38 === GetRunningGames() called ===
+16:36:40 Folder-based match: RtkAudUService64 at C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_9715b98ea291c6cf\RtkAudUService64.exe
+16:36:40 Folder-based match: steam at C:\Program Files (x86)\Steam\steam.exe
+16:36:40 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:40 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:40 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:40 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:40 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:40 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:40 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:40 Folder-based match: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:36:40 Folder-based match: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:36:40 Folder-based match: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:36:40 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:40 Folder-based match: GalaxyClient at C:\Program Files (x86)\GOG Galaxy\GalaxyClient.exe
+16:36:40 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:40 Folder-based match: GalaxyClient Helper at C:\Program Files (x86)\GOG Galaxy\GalaxyClient Helper.exe
+16:36:40 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:40 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:40 Folder-based match: ms-teams at C:\Program Files\WindowsApps\MSTeams_26072.521.4595.7966_x64__8wekyb3d8bbwe\ms-teams.exe
+16:36:40 Folder-based match: ms-teams at C:\Program Files\WindowsApps\MSTeams_26072.521.4595.7966_x64__8wekyb3d8bbwe\ms-teams.exe
+16:36:40 Folder-based match: GalaxyCommunication at C:\ProgramData\GOG.com\Galaxy\redists\GalaxyCommunication.exe
+16:36:40 Folder-based match: GalaxyClient Helper at C:\Program Files (x86)\GOG Galaxy\GalaxyClient Helper.exe
+16:36:40 Folder-based match: GOG Galaxy Notifications Renderer at C:\Program Files (x86)\GOG Galaxy\GOG Galaxy Notifications Renderer.exe
+16:36:40 Folder-based match: EADesktop at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EADesktop.exe
+16:36:40 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:40 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:40 Folder-based match: EALocalHostSvc at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EALocalHostSvc.exe
+16:36:40 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:40 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:40 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:40 Folder-based match: CCXProcess at C:\Program Files\Adobe\Adobe Creative Cloud Experience\CCXProcess.exe
+16:36:40 Folder-based match: node at C:\Program Files\Adobe\Adobe Creative Cloud Experience\libs\node.exe
+16:36:40 Folder-based match: RtkUWP at C:\Program Files\WindowsApps\RealtekSemiconductorCorp.RealtekAudioControl_1.53.390.0_x64__dt26b99r8h8gj\RtkUWP.exe
+16:36:40 Folder-based match: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:36:40 Folder-based match: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:36:40 Folder-based match: gameoverlayui64 at C:\Program Files (x86)\Steam\gameoverlayui64.exe
+16:36:40 Folder-based match: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:40 Folder-based match: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:40 Final detected games: RtkAudUService64, steam, steamwebhelper, EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, GalaxyClient, GalaxyClient Helper, ms-teams, GalaxyCommunication, GOG Galaxy Notifications Renderer, EADesktop, EACefSubProcess, EALocalHostSvc, CCXProcess, node, RtkUWP, OblivionRemastered, OblivionRemastered-Win64-Shipping, gameoverlayui64
+16:36:40 === GetRunningGames() called ===
+16:36:42 Folder-based match: RtkAudUService64 at C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_9715b98ea291c6cf\RtkAudUService64.exe
+16:36:42 Folder-based match: steam at C:\Program Files (x86)\Steam\steam.exe
+16:36:42 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:42 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:42 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:42 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:42 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:42 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:42 Folder-based match: steamwebhelper at C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe
+16:36:42 Folder-based match: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:36:42 Folder-based match: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:36:42 Folder-based match: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:36:42 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:42 Folder-based match: GalaxyClient at C:\Program Files (x86)\GOG Galaxy\GalaxyClient.exe
+16:36:42 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:42 Folder-based match: GalaxyClient Helper at C:\Program Files (x86)\GOG Galaxy\GalaxyClient Helper.exe
+16:36:42 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:42 Folder-based match: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:42 Folder-based match: ms-teams at C:\Program Files\WindowsApps\MSTeams_26072.521.4595.7966_x64__8wekyb3d8bbwe\ms-teams.exe
+16:36:42 Folder-based match: ms-teams at C:\Program Files\WindowsApps\MSTeams_26072.521.4595.7966_x64__8wekyb3d8bbwe\ms-teams.exe
+16:36:42 Folder-based match: GalaxyCommunication at C:\ProgramData\GOG.com\Galaxy\redists\GalaxyCommunication.exe
+16:36:42 Folder-based match: GalaxyClient Helper at C:\Program Files (x86)\GOG Galaxy\GalaxyClient Helper.exe
+16:36:42 Folder-based match: GOG Galaxy Notifications Renderer at C:\Program Files (x86)\GOG Galaxy\GOG Galaxy Notifications Renderer.exe
+16:36:42 Folder-based match: EADesktop at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EADesktop.exe
+16:36:42 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:42 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:42 Folder-based match: EALocalHostSvc at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EALocalHostSvc.exe
+16:36:42 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:42 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:42 Folder-based match: EACefSubProcess at C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\EACefSubProcess.exe
+16:36:42 Folder-based match: CCXProcess at C:\Program Files\Adobe\Adobe Creative Cloud Experience\CCXProcess.exe
+16:36:42 Folder-based match: node at C:\Program Files\Adobe\Adobe Creative Cloud Experience\libs\node.exe
+16:36:42 Folder-based match: RtkUWP at C:\Program Files\WindowsApps\RealtekSemiconductorCorp.RealtekAudioControl_1.53.390.0_x64__dt26b99r8h8gj\RtkUWP.exe
+16:36:42 Folder-based match: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:36:42 Folder-based match: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:36:42 Folder-based match: gameoverlayui64 at C:\Program Files (x86)\Steam\gameoverlayui64.exe
+16:36:42 Folder-based match: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:42 Folder-based match: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:36:42 Final detected games: RtkAudUService64, steam, steamwebhelper, EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, GalaxyClient, GalaxyClient Helper, ms-teams, GalaxyCommunication, GOG Galaxy Notifications Renderer, EADesktop, EACefSubProcess, EALocalHostSvc, CCXProcess, node, RtkUWP, OblivionRemastered, OblivionRemastered-Win64-Shipping, gameoverlayui64
+16:36:53 === GetRunningGames() called ===
+16:36:54 === GetRunningGames() called ===
+16:37:47 === GetRunningGames() called ===
+16:37:49 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:37:49 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:37:49 REAL GAME detected: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:37:49 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:37:49 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:37:49 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:37:49 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:37:49 REAL GAME detected: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:37:49 REAL GAME detected: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:37:49 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:37:49 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:37:49 Final REAL games: EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, OblivionRemastered, OblivionRemastered-Win64-Shipping
+16:37:49 === GetRunningGames() called ===
+16:37:51 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:37:51 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:37:51 REAL GAME detected: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:37:51 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:37:51 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:37:51 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:37:51 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:37:51 REAL GAME detected: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:37:51 REAL GAME detected: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:37:51 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:37:51 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:37:51 Final REAL games: EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, OblivionRemastered, OblivionRemastered-Win64-Shipping
+16:38:03 === GetRunningGames() called ===
+16:38:05 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:05 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:05 REAL GAME detected: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:38:05 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:05 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:05 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:05 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:05 REAL GAME detected: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:38:05 REAL GAME detected: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:38:05 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:05 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:05 Final REAL games: EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, OblivionRemastered, OblivionRemastered-Win64-Shipping
+16:38:05 === GetRunningGames() called ===
+16:38:07 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:07 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:07 REAL GAME detected: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:38:07 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:07 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:07 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:07 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:07 REAL GAME detected: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:38:07 REAL GAME detected: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:38:07 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:07 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:07 Final REAL games: EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, OblivionRemastered, OblivionRemastered-Win64-Shipping
+16:38:19 === GetRunningGames() called ===
+16:38:21 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:21 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:21 REAL GAME detected: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:38:21 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:21 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:21 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:21 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:21 REAL GAME detected: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:38:21 REAL GAME detected: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:38:21 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:21 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:21 Final REAL games: EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, OblivionRemastered, OblivionRemastered-Win64-Shipping
+16:38:21 === GetRunningGames() called ===
+16:38:23 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:23 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:23 REAL GAME detected: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:38:23 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:23 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:23 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:23 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:23 REAL GAME detected: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:38:23 REAL GAME detected: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:38:23 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:23 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:23 Final REAL games: EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, OblivionRemastered, OblivionRemastered-Win64-Shipping
+16:38:35 === GetRunningGames() called ===
+16:38:37 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:37 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:37 REAL GAME detected: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:38:37 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:37 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:37 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:37 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:37 REAL GAME detected: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:38:37 REAL GAME detected: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:38:37 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:37 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:37 Final REAL games: EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, OblivionRemastered, OblivionRemastered-Win64-Shipping
+16:38:37 === GetRunningGames() called ===
+16:38:39 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:39 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:39 REAL GAME detected: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:38:39 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:39 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:39 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:39 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:39 REAL GAME detected: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:38:39 REAL GAME detected: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:38:39 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:39 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:39 Final REAL games: EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, OblivionRemastered, OblivionRemastered-Win64-Shipping
+16:38:51 === GetRunningGames() called ===
+16:38:53 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:53 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:53 REAL GAME detected: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:38:53 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:53 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:53 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:53 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:53 REAL GAME detected: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:38:53 REAL GAME detected: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:38:53 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:53 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:53 Final REAL games: EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, OblivionRemastered, OblivionRemastered-Win64-Shipping
+16:38:53 === GetRunningGames() called ===
+16:38:55 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:55 REAL GAME detected: EpicOnlineServicesUserHelper at C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe
+16:38:55 REAL GAME detected: EpicGamesLauncher at C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe
+16:38:55 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:55 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:55 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:55 REAL GAME detected: EpicWebHelper at C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:55 REAL GAME detected: OblivionRemastered at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered.exe
+16:38:55 REAL GAME detected: OblivionRemastered-Win64-Shipping at E:\SteamLibrary\steamapps\common\Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+16:38:55 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:55 REAL GAME detected: EpicWebHelper at E:\SteamLibrary\steamapps\common\Oblivion Remastered\Engine\Binaries\Win64\EpicWebHelper.exe
+16:38:55 Final REAL games: EpicOnlineServicesUserHelper, EpicGamesLauncher, EpicWebHelper, OblivionRemastered, OblivionRemastered-Win64-Shipping
