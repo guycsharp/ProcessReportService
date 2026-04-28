@@ -7,7 +7,8 @@ public static class AllowedProcessList
   private static readonly string[] _names =
   {
         "Roblox",
-        "Steam"
+        "Steam",
+        "Epic"
     };
 
   // Fast lookup (case-insensitive)

@@ -1,206 +1,98 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Text.Json;
-using Microsoft.Win32;
 
 namespace ProcessReportService.Services
 {
     public static class GameDetector
     {
+        private static readonly string LogPath = @"C:\NETCore\ProcessReportService\detector.log";
+
+        private static void Log(string msg)
+        {
+            try
+            {
+                File.AppendAllText(LogPath, $"{DateTime.Now:HH:mm:ss} {msg}\n");
+            }
+            catch { }
+        }
+
         // ---------------------------------------------------------
         // PUBLIC API
         // ---------------------------------------------------------
         public static List<string> GetRunningGames()
         {
+            Log("=== GetRunningGames() called ===");
+
             var games = new List<string>();
 
-            games.AddRange(GetRunningSteamGames());
-            games.AddRange(GetRunningEpicGames());
-            if (IsRobloxRunning()) games.Add("Roblox");
+            // Folder-based detection only
+            games.AddRange(DetectGamesByProcessFolders());
 
-            return games.Distinct().ToList();
+            // Remove duplicates
+            games = games
+                .Where(g => !string.IsNullOrWhiteSpace(g))
+                .Distinct(StringComparer.OrdinalIgnoreCase)
+                .ToList();
+
+            Log($"Final detected games: {string.Join(", ", games)}");
+            return games;
         }
 
         // ---------------------------------------------------------
-        // STEAM DETECTION
+        // FOLDER-BASED DETECTION (MAIN LOGIC)
         // ---------------------------------------------------------
-        private static List<string> GetRunningSteamGames()
+        private static List<string> DetectGamesByProcessFolders()
         {
             var results = new List<string>();
 
-            foreach (string steamApps in GetAllSteamLibraryFolders())
+            // Keywords that identify game launcher folders
+            var keywords = new[]
             {
-                foreach (var file in Directory.GetFiles(steamApps, "appmanifest_*.acf"))
-                {
-                    try
-                    {
-                        string text = File.ReadAllText(file);
-
-                        string name = ExtractAcfValue(text, "name");
-                        string installDir = ExtractAcfValue(text, "installdir");
-
-                        if (string.IsNullOrWhiteSpace(name)) continue;
-
-                        if (IsProcessRunningByFolder(installDir))
-                            results.Add(name);
-                    }
-                    catch { }
-                }
-            }
-
-            return results;
-        }
-
-        private static IEnumerable<string> GetAllSteamLibraryFolders()
-        {
-            var folders = new List<string>();
-
-            string steamPath = GetSteamInstallPath();
-            if (steamPath != null)
-            {
-                string defaultApps = Path.Combine(steamPath, "steamapps");
-                if (Directory.Exists(defaultApps))
-                    folders.Add(defaultApps);
-            }
-
-            // Parse libraryfolders.vdf for additional drives
-            string libraryFile = Path.Combine(steamPath ?? "", "steamapps", "libraryfolders.vdf");
-            if (File.Exists(libraryFile))
-            {
-                string[] lines = File.ReadAllLines(libraryFile);
-
-                foreach (string line in lines)
-                {
-                    if (line.Contains("\"path\""))
-                    {
-                        int start = line.IndexOf("\"", line.IndexOf("path") + 5) + 1;
-                        int end = line.IndexOf("\"", start);
-                        string path = line.Substring(start, end - start);
-
-                        string apps = Path.Combine(path, "steamapps");
-                        if (Directory.Exists(apps))
-                            folders.Add(apps);
-                    }
-                }
-            }
-
-            return folders.Distinct();
-        }
-
-        private static string GetSteamInstallPath()
-        {
-            try
-            {
-                using var key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\WOW6432Node\Valve\Steam");
-                return key?.GetValue("InstallPath")?.ToString();
-            }
-            catch { return null; }
-        }
-
-        private static string ExtractAcfValue(string text, string key)
-        {
-            int idx = text.IndexOf($"\"{key}\"", StringComparison.OrdinalIgnoreCase);
-            if (idx < 0) return null;
-
-            int start = text.IndexOf("\"", idx + key.Length + 2);
-            int end = text.IndexOf("\"", start + 1);
-
-            if (start < 0 || end < 0) return null;
-
-            return text.Substring(start + 1, end - start - 1);
-        }
-
-        // ---------------------------------------------------------
-        // EPIC GAMES DETECTION
-        // ---------------------------------------------------------
-        private static List<string> GetRunningEpicGames()
-        {
-            var results = new List<string>();
-
-            foreach (string manifestDir in GetEpicManifestFolders())
-            {
-                foreach (var file in Directory.GetFiles(manifestDir, "*.item"))
-                {
-                    try
-                    {
-                        string json = File.ReadAllText(file);
-                        var data = JsonSerializer.Deserialize<EpicManifest>(json);
-
-                        if (data == null || string.IsNullOrWhiteSpace(data.DisplayName))
-                            continue;
-
-                        if (IsProcessRunningByFolder(data.InstallLocation))
-                            results.Add(data.DisplayName);
-                    }
-                    catch { }
-                }
-            }
-
-            return results;
-        }
-
-        private static IEnumerable<string> GetEpicManifestFolders()
-        {
-            var folders = new List<string>();
-
-            // Default location
-            string defaultDir = @"C:\ProgramData\Epic\EpicGamesLauncher\Data\Manifests";
-            if (Directory.Exists(defaultDir))
-                folders.Add(defaultDir);
-
-            // Registry lookup for custom install
-            try
-            {
-                using var key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Epic Games\EpicGamesLauncher");
-                string path = key?.GetValue("AppDataPath")?.ToString();
-                if (!string.IsNullOrWhiteSpace(path))
-                {
-                    string manifestDir = Path.Combine(path, "Data", "Manifests");
-                    if (Directory.Exists(manifestDir))
-                        folders.Add(manifestDir);
-                }
-            }
-            catch { }
-
-            return folders.Distinct();
-        }
-
-        private class EpicManifest
-        {
-            public string DisplayName { get; set; }
-            public string InstallLocation { get; set; }
-        }
-
-        // ---------------------------------------------------------
-        // ROBLOX DETECTION
-        // ---------------------------------------------------------
-        private static bool IsRobloxRunning()
-        {
-            return Process.GetProcessesByName("RobloxPlayerBeta").Any();
-        }
-
-        // ---------------------------------------------------------
-        // HELPER: detect running EXE by folder name
-        // ---------------------------------------------------------
-        private static bool IsProcessRunningByFolder(string folderName)
-        {
-            if (string.IsNullOrWhiteSpace(folderName)) return false;
+                "steam", "epic", "gog", "ubisoft", "ea", "origin",
+                "riot", "battle", "blizzard"
+            };
 
             foreach (var p in Process.GetProcesses())
             {
+                string exePath;
                 try
                 {
-                    string path = p.MainModule.FileName;
-                    if (path.Contains(folderName, StringComparison.OrdinalIgnoreCase))
-                        return true;
+                    exePath = p.MainModule.FileName;
                 }
-                catch { }
+                catch
+                {
+                    continue;
+                }
+
+                string dir = Path.GetDirectoryName(exePath) ?? "";
+                if (string.IsNullOrWhiteSpace(dir))
+                    continue;
+
+                // Walk up 3 folder levels
+                var folders = new List<string>();
+                string current = dir;
+
+                for (int i = 0; i < 3; i++)
+                {
+                    folders.Add(current);
+                    current = Directory.GetParent(current)?.FullName ?? "";
+                    if (string.IsNullOrWhiteSpace(current))
+                        break;
+                }
+
+                // Check if any folder contains launcher keywords
+                if (folders.Any(f => keywords.Any(k =>
+                    f.Contains(k, StringComparison.OrdinalIgnoreCase))))
+                {
+                    Log($"Folder-based match: {p.ProcessName} at {exePath}");
+                    results.Add(p.ProcessName);
+                }
             }
 
-            return false;
+            return results;
         }
     }
 }

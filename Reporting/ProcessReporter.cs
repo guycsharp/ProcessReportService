@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text.Json;
-using ProcessReportService.Services; // Make sure this namespace matches your project
+using ProcessReportService.Services;
 
 public static class ProcessReporter
 {
@@ -14,11 +14,11 @@ public static class ProcessReporter
             Processes = new List<ProcessInfo>()
         };
 
-        // Ask GameDetector which games are running
-        List<string> runningGames = GameDetector.GetRunningGames();
+        // Get detected game processes (these are process names)
+        List<string> runningGameProcesses = GameDetector.GetRunningGames();
 
-        // If no games are running, return empty report
-        if (runningGames.Count == 0)
+        // If no games detected, return empty report
+        if (runningGameProcesses.Count == 0)
             return JsonSerializer.Serialize(report, new JsonSerializerOptions { WriteIndented = true });
 
         foreach (var p in Process.GetProcesses())
@@ -29,9 +29,9 @@ public static class ProcessReporter
                 try { _ = p.StartTime; }
                 catch { continue; }
 
-                // Check if this process belongs to a detected game
-                bool isGameProcess = runningGames.Any(game =>
-                    p.ProcessName.Contains(game, StringComparison.OrdinalIgnoreCase));
+                // Match by exact process name (case-insensitive)
+                bool isGameProcess = runningGameProcesses.Any(gameProc =>
+                    p.ProcessName.Equals(gameProc, StringComparison.OrdinalIgnoreCase));
 
                 if (!isGameProcess)
                     continue;

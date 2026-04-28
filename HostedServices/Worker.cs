@@ -2,6 +2,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System.Threading;
 using System.Threading.Tasks;
+using ProcessReportService.Services;   
 
 public class Worker : BackgroundService
 {
@@ -18,18 +19,25 @@ public class Worker : BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        if (!_storage.Exists())
-            return;
+        while (!stoppingToken.IsCancellationRequested)
+        {
+            try
+            {
+                var games = GameDetector.GetRunningGames();
 
-        try
-        {
-            string json = _storage.Load();
-            await _sender.SendAsync(json);
-            _storage.Delete();
-        }
-        catch
-        {
-            // keep file for next boot
+                if (games.Any())
+                {
+                    string json = ProcessReporter.GenerateJsonReport();
+                    _storage.Save(json);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error during detection");
+            }
+
+            await Task.Delay(TimeSpan.FromSeconds(10), stoppingToken);
         }
     }
 }
+

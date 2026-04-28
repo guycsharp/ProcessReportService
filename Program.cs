@@ -2,9 +2,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Hosting.WindowsServices;
 
-
 Host.CreateDefaultBuilder(args)
-    .UseWindowsService()
+#if DEBUG
+    .UseConsoleLifetime()   // <-- Worker runs when pressing F5
+#else
+    .UseWindowsService()    // <-- Worker runs when installed as a service
+#endif
     .ConfigureServices(services =>
     {
         services.AddSingleton<IReportGenerator, JsonReportGenerator>();
