@@ -31,7 +31,13 @@ public static class ProcessReporter
 
                 // Match by exact process name (case-insensitive)
                 bool isGameProcess = runningGameProcesses.Any(gameProc =>
-                    p.ProcessName.Equals(gameProc, StringComparison.OrdinalIgnoreCase));
+                {
+                    if (gameProc.Equals("Roblox", StringComparison.OrdinalIgnoreCase))
+                        return p.ProcessName.StartsWith("RobloxPlayer", StringComparison.OrdinalIgnoreCase);
+
+                    return p.ProcessName.Equals(gameProc, StringComparison.OrdinalIgnoreCase);
+                });
+
 
                 if (!isGameProcess)
                     continue;
